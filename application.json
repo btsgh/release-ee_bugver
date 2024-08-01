@@ -123,6 +123,10 @@
     {
       "id": "USERS",
       "isDefault": false
+    },
+    {
+      "id": "Page18",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
