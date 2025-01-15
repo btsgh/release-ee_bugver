@@ -177,7 +177,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "appsmith_mongo_escape_id": {
+    "_id": {
       "borderRadius": "0px",
       "boxShadow": "none",
       "cellBackground": "#FFFFFF",
