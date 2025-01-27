@@ -111,7 +111,7 @@
       "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
       "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
       "columnType": "button",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => { try { return ( currentRow[\"action\"]); } catch (e) { return null; }})}}",
       "enableFilter": true,
       "enableSort": true,
       "horizontalAlignment": "LEFT",
@@ -135,7 +135,7 @@
     "status": {
       "alias": "status",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => { try { return ( currentRow[\"status\"]); } catch (e) { return null; }})}}",
       "enableFilter": true,
       "enableSort": true,
       "horizontalAlignment": "LEFT",
@@ -157,7 +157,7 @@
     "step": {
       "alias": "step",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => { try { return ( currentRow[\"step\"]); } catch (e) { return null; }})}}",
       "enableFilter": true,
       "enableSort": true,
       "horizontalAlignment": "LEFT",
@@ -179,7 +179,7 @@
     "task": {
       "alias": "task",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => { try { return ( currentRow[\"task\"]); } catch (e) { return null; }})}}",
       "enableFilter": true,
       "enableSort": true,
       "horizontalAlignment": "LEFT",
