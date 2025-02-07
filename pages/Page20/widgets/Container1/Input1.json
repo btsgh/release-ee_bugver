@@ -1,0 +1,53 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "kmfyy6bxfi",
+  "label": "Label",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 10.93017578125,
+  "parentId": "cyz6s68fx7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 18.618181818181817,
+  "showStepArrows": false,
+  "topRow": 7,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "xievsb6rdt",
+  "widgetName": "Input1"
+}
